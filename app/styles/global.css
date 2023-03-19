@@ -33,11 +33,6 @@
     transform: translateX(100%) scaleX(0.5);
   }
 }
-html {
-  font-family: "Open Sans", sans-serif;
-  background-color: black;
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -104,6 +99,11 @@ html {
   border-bottom-right-radius: 36px;
   color: #150f00;
   height: 35px;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
 }
 
 /*# sourceMappingURL=global.css.map */
