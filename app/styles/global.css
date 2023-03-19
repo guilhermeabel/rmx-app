@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 20px;
+  gap: 25px;
+}
+.card {
+  color: white;
+  background: rgb(47, 44, 47);
+  background: linear-gradient(22deg, rgb(31, 31, 31) 63%, rgb(12, 10, 18) 99%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex-basis: calc(33.33% - 25px);
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  border-radius: 46px 46px 39px 39px;
+}
+.card .header img {
+  object-fit: contain;
+  background-color: white;
+  aspect-ratio: 1;
+  height: 240px;
+  padding: 20px;
+  border-radius: 36px;
+  margin: 10px 10px;
+}
+.card .content h3 {
+  margin: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ebebed;
+}
+.card .content p {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 20px;
+  margin-bottom: 20px;
+  color: #949396;
+}
+.card .footer {
+  width: 100%;
+}
+.card .footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #fcea25;
+  background: linear-gradient(220deg, #fcea25, #ebc50f);
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  color: #150f00;
+  height: 35px;
+}
+
+/*# sourceMappingURL=global.css.map */
