@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import "loading.scss";
 
 html {
 	font-family: "Open Sans", sans-serif;
 	background-color: black;
-	// background-color: white;
 }
 
 .container {
@@ -58,6 +58,11 @@ html {
 			font-size: 14px;
 			font-weight: 600;
 			color: #ebebed;
+
+			width: 230px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
 		}
 
 		p {
