@@ -1,6 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import type { Product, HelperTypes } from '~/types';
 
+// ** API: https://fakestoreapi.com/docs
+
 export const useGetProducts = (options?: HelperTypes.QueryOptions<Product[]>) => {
 	return useQuery<Product[]>(
 		['products'],
